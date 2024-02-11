@@ -1,4 +1,5 @@
-# tic-tac-toe摘要
+# tic-tac-toe
+摘要
 	以python撰寫九宮格遊戲(tic-tac-toe)，利用蒙地卡羅樹搜尋的方法，控制電腦選擇位置，與玩家下棋。
 
 運行成果
