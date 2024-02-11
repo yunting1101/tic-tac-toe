@@ -17,7 +17,7 @@ class tree_node():#建立mcts的節點
 
 class MCTS():
     def search(self, initial_state):#搜尋下一步移動位置
-        self.root = tree_node(initial_state, None)#建root
+        self.root = tree_node(initial_state, None)
         for iteration in range(1000):#選擇一個node
             node = self.select(self.root)
             score = self.rollout(node.board)
